@@ -201,6 +201,10 @@ margin-right: 10px;
 
 
 /* no limits */
+#no_limits{
+  padding-bottom: 30px;
+}
+
 #blu_text{
   text-transform: uppercase;
   color: #1B70D1;
@@ -242,7 +246,7 @@ margin-right: 10px;
 #nuove_uscite{
   background-color: #1F1F1F;
   color: white;
-  padding-top: 40px;
+  padding: 40px 0 30px;
 }
 
 #nuove_uscite h3 + div{
@@ -313,6 +317,10 @@ margin-right: 10px;
 
 
 /* nuovi sconti */
+#nuovi_sconti{
+  padding-bottom: 30px;
+}
+
 #nuovi_sconti ._row{
   padding-top: 50px;
 }

@@ -334,7 +334,12 @@ margin-right: 10px;
 }
 
 #nuovi_sconti .row > div{
-  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#nuovi_sconti .row > div:hover{
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 /* /nuovi sconti */
 

@@ -26,7 +26,6 @@ header ._row{
 }
 
 .btn-group:not(.float-end .btn-group){
-  margin-left: 20px;
   float: left;
 }
 
@@ -37,7 +36,7 @@ header ._row{
 }
 
 header ._bottom div.btn-group > button{
-  font-size: 1.15vw;
+  font-size: 1.25vw;
 }
 
 .dropdown-toggle::after{
@@ -133,9 +132,15 @@ margin-right: 10px;
 }
 
 #ham_menu i{
+  color: black;
   padding: 5px 15px;
   border:1px solid lightgray;
   border-radius: 5px;
+}
+
+#ham_menu i:hover{
+  background-color: lightgray;
+  border-color: black;
 }
 /* bottom */
 
@@ -176,6 +181,7 @@ margin-right: 10px;
 
 /* cards */
 #cards{
+  padding-top: 10px;
   margin-bottom: 100px;
 }
 
@@ -200,16 +206,6 @@ margin-right: 10px;
   color: #1B70D1;
 }
 
-#no_limits h2{
-  font-size: 2.5rem;
-} 
-
-#no_limits p{
-  font-size: 1.3rem;
-  color: #676767;
-  margin-top: 20px;
-}
-
 #no_limits p.text-center{
   margin-bottom: 100px;
 }
@@ -217,6 +213,7 @@ margin-right: 10px;
 #no_limits ._btn{
   background-color: #2D64E5;
   width: 189px;
+  margin-top: 40px;
 }
 
 /* cards no limits */
@@ -248,17 +245,192 @@ margin-right: 10px;
   padding-top: 40px;
 }
 
+#nuove_uscite h3 + div{
+  font-size: 1.2rem;
+}
+
 #nuove_uscite ._col{
-  margin-bottom: 40px;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+
+#nuove_uscite a{
+  color: white;
 }
 
 #nuove_uscite ._col img{
   border-radius: 15px;
 }
 
-
+#nuove_uscite ._col img:hover{
+  margin-top: -5px;
+  margin-bottom: 5px;
+}
 /* /nuove uscite */
 
+
+/* esplora PlayStation */
+#_esplora{
+  padding-bottom: 80px;
+}
+
+#_esplora h2 > span{
+  font-size: 1.5rem;
+}
+
+#_esplora h3{
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+}
+
+#_esplora ._btn{
+  background-color: #2D64E5;
+  width: 124.5px;
+  margin-top: 20px;
+}
+/* /esplora PlayStation */
+
+
+/* PlayStation Plus */
+#play_plus{
+  background-color: #BDBCBA;
+}
+
+#play_plus ._btn{
+  width: 212px;
+  margin-top: 25px;
+}
+
+#play_plus ._btn a{
+  color: #2D64E5;
+  padding: 7.5px 15px;
+}
+
+#play_plus ._btn:hover > a{
+  background-color: rgba(255, 255, 255, .5);
+  border: none;
+}
+/* /PlayStation Plus */
+
+
+/* nuovi sconti */
+#nuovi_sconti ._row{
+  padding-top: 50px;
+}
+
+#nuovi_sconti ._row > div:first-child{
+  margin-bottom: 50px;
+}
+
+#nuovi_sconti h2{
+  margin-bottom: 20px;
+}
+
+#nuovi_sconti .row > div{
+  margin-bottom: 30px;
+}
+/* /nuovi sconti */
+
+
+/* PlayStation Now */
+#play_now{
+  background-color: #161C3C;
+  color: white;
+}
+
+#play_now ._btn{
+  width: 212.5px;
+  background-color: white;
+}
+
+#play_now ._btn a{
+  color: #161C3C;
+}
+
+#play_now ._btn:hover a{
+  border-color: #161C3C;
+}
+/* /PlayStation Now */
+
+
+/* social */
+#_social ._row{
+  padding: 80px 0;
+}
+
+#_social h2{
+  font-size: 2rem;
+}
+
+#_social ._row > div:first-child{
+  margin-bottom: 80px;
+}
+
+#_social ._col{
+  margin-bottom: 40px;
+}
+
+/* /social */
+
 /* /main */
+
+
+/* footer */
+footer{
+  background-color: #2D64E5;
+  color: white;
+}
+
+footer a{
+  color: white;
+}
+
+footer a:hover{
+  color: lightgray;
+}
+
+#play_footer{
+  width: 100px;
+  margin: 80px 0 40px;
+}
+
+#_globe{
+  width: 20px;
+  margin-right: 10px;
+}
+
+footer ._col{
+  margin: 40px 0;
+}
+
+footer ._col ul{
+  list-style: none;
+}
+
+footer ._col ul:last-child{
+  margin-right: 40px;
+}
+
+footer ._col ul li{
+  line-height: 30px;
+}
+
+#_sony{
+  width: 150px;
+}
+
+footer .row > div:last-child{
+  margin-bottom: 80px;
+}
+
+footer .row > div:last-child p{
+  color: white;
+  font-size: 1rem;
+}
+
+footer .row > div:last-child p a{
+  text-decoration: underline;
+}
+/* /footer */
 
 

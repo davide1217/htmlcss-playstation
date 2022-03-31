@@ -2,3 +2,24 @@
   background-color: rgba(0, 0, 0, .5);
   border: 1px solid white;
 }
+
+a{
+  text-decoration: none;
+}
+
+._btn{
+  line-height: 40px;
+  padding: 0px 3px;
+  border-radius: 25px;
+}
+
+._btn a{
+  color: white;
+  border-radius: 25px;
+  padding: 7.5px 15px;
+}
+
+._btn:hover > a{
+  border: 2px solid white;
+  padding: 7.5px 13px;
+}

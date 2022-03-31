@@ -109,35 +109,156 @@ header ._right > div{
   margin-left: 20px;
 }
 
-.padding_-{
-  line-height: 40px;
-  background-color: #363636;
-  padding: 0px 3px;
-  border-radius: 25px;
-}
-
 header ._bottom ._btn{
-  padding: 8px 15px;
-  border-radius: 25px;
-  color: white;
-  text-decoration: none;
+  background-color: #363636;
 }
 
-header ._bottom .padding_-:hover ._btn{
-  border: 2px solid white;
-}
-
-header ._bottom .padding_-:hover{
-  margin-left: 16px;
+header ._bottom ._btn:hover{
+  margin-left: 20px;
   background-color: #5C636A;
+}
+
+header ._btn:hover > a{
+  padding-right: 13px;
 }
 
 header ._bottom .float-end a > img{
   width: 20px;
   margin: 0 20px;
 }
+
+#ham_menu{
+font-size: 1.5rem;
+margin-right: 10px;
+}
+
+#ham_menu i{
+  padding: 5px 15px;
+  border:1px solid lightgray;
+  border-radius: 5px;
+}
 /* bottom */
 
 /* header */
+
+
+/* _jumbotron */
+._jumbotron{
+  height: 700px;
+  background-image: url(img/jumbo-bg.png);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+._jumbotron div > h1{
+  font-size: 2.3rem;
+  margin-top: 40px;
+}
+
+.description{
+  margin-top: 20px;
+}
+
+._jumbotron ._btn{
+  margin-top: 50px;
+  background-color: #CD3D2B;
+  margin-left: 10px;
+}
+
+._jumbotron ._btn:hover a{
+  border: 2px solid black;
+}
+/* /_jumbotron */
+
+
+/* main */
+
+/* cards */
+#cards{
+  margin-bottom: 100px;
+}
+
+#cards img{
+  width: 95%;
+  border-radius: 15px;
+}
+
+#cards ._col{
+  margin-top: 20px;
+}
+
+#cards img:hover{
+  margin-top: -10px;
+}
+/* /cards */
+
+
+/* no limits */
+#blu_text{
+  text-transform: uppercase;
+  color: #1B70D1;
+}
+
+#no_limits h2{
+  font-size: 2.5rem;
+} 
+
+#no_limits p{
+  font-size: 1.3rem;
+  color: #676767;
+  margin-top: 20px;
+}
+
+#no_limits p.text-center{
+  margin-bottom: 100px;
+}
+
+#no_limits ._btn{
+  background-color: #2D64E5;
+  width: 189px;
+}
+
+/* cards no limits */
+#cards_no_limits ._col > div{
+  height: 100%;
+  margin-bottom: 2px;
+}
+
+#cards_no_limits ._col:hover > div{
+  border-bottom: 2px solid #2D64E5;
+  margin-bottom: 0;
+}
+/* /cards no limits */
+
+/* /no limits */
+
+
+/* jumbotron 2 */
+#jumbotron_2{
+  background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+}
+/* /jumbotron 2 */
+
+
+/* nuove uscite */
+#nuove_uscite{
+  background-color: #1F1F1F;
+  color: white;
+  padding-top: 40px;
+}
+
+#nuove_uscite ._col{
+  margin-bottom: 40px;
+}
+
+#nuove_uscite ._col img{
+  border-radius: 15px;
+}
+
+
+/* /nuove uscite */
+
+/* /main */
 
 
